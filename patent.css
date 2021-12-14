@@ -1,0 +1,97 @@
+/* Body */
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(pupupu.jpg);
+	background-size: 1300px;
+}
+.Navigation{
+	display: flex;
+	align-items: center;
+	padding: 1mm;
+}
+
+Nav{
+	flex: 3;
+	text-align: left;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 40px;
+	font-family: rainyhearts;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: #122620;
+	padding:  20px;
+	margin-top: 30px;
+}
+p{
+	color: #122620; }
+
+.Contain{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.lex{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.ex{
+	display: inline-block;
+	background: #d0959e;
+	color: black;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+	font-family: rainyhearts;
+	font-size:25px;
+}
+.ex:hover{background: #a2757c;}
+
+
+
+/* service */ 
+.serve h1{
+	font-size: 50px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #000C66;
+}
+.Emails p{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	color: #050A30;
+}
+.Image h1 {
+	font-size: 50px;
+	text-align: left;
+	padding-left: 50px;
+	font-family: Challenge the World;
+}
+.Image p {
+	font-size: 30px;
+	text-align: left;
+	padding-left: 50px;
+	font-family: Challenge the World;
+}
+.Image img {
+position: absolute;
+top: 10px;
+left: 850px;
+width: 400px;}
